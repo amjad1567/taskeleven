@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Hover</title>
+</head>
+<body>
+    <img id="hoverImage" src="Cyber.jpg" alt="Hover Image">
+
+    <script>
+        // Get the image element
+        const imgElement = document.getElementById('hoverImage');
+
+        // Function to hide the image on hover
+        imgElement.onmouseover = function() {
+            imgElement.style.display = 'none';
+        };
+
+        // Function to show the image when the mouse is not hovering
+        imgElement.onmouseout = function() {
+            imgElement.style.display = 'block';
+        };
+    </script>
+</body>
+</html>
