@@ -13,7 +13,7 @@ This repository contains two approaches to implement an image hover effect where
 - It listens for the `onmouseover` and `onmouseout` events and modifies the image's `display` property.
 
 ### CSS-Only Approach:
-- The file `index_css.html` uses pure CSS to achieve the same effect.
+- The file `index1.html` uses pure CSS to achieve the same effect.
 - The `:hover` pseudo-class hides the image when hovered over and restores it when the mouse leaves.
 
 ## How to Test:
